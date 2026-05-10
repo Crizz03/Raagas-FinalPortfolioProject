@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="Style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+</head>
+<body>
+    <div class="Nav-head">
+        <img src="Image/logo.png" class="logo" width="70">
+            <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav id="navMenu"> 
+            <a href="#Home" onclick="closeMenu()">Home</a>
+            <a href="#About" onclick="closeMenu()">About</a>
+            <a href="#Education" onclick="closeMenu()">Education</a>
+            <a href="#Skills" onclick="closeMenu()">Skills</a>
+            <a href="#Contact" onclick="closeMenu()">Contact</a>  
+        </nav>
+    </div>
+
+    <section id="Home">
+        <div class="Home-container">
+            <div class="content">
+                <h1 class="Home-h1">Hello, I'm <span class="Home-span">Cristian Raagas</span></h1>
+                <h2 class="Home-h2">An IT Student & Aspiring <span class="Home-span">Web Developer</span></h2>
+                <img src="Image/pic1.jpg" class="pic1-mobile"> 
+                <p class="Home-p">I build simple, clean, and user-friendly websites. <br class="mobile-hide">
+                    I enjoy turning ideas into code and constantly <br class="mobile-hide">
+                    learning new ways to improve my skills.
+                </p>
+                <p class="Home-p">
+                    <strong style="color: #573007;">My Goal:</strong> To create digital solutions that make life easier.<br><br>
+                    <strong style="color: #573007;">What I Do:</strong> Web Design, Front-end Development, and Creative Problem Solving.
+                </p><br>
+                <div class="btn-group">
+                    <a href="#About"><button>Learn More</button></a>        
+                    <a href="#Contact"><button class="Contact">Contact Me</button></a> 
+                </div>   
+            </div>
+            <img src="Image/pic1.jpg" class="pic1"> 
+        </div>
+    </section>
+
+    <section id="About">
+        <div class="container-content1">
+            <img src="Image/pic2.jpg" class="pic2">
+            <div class="content1"> 
+                <h1 class="content-h1">Hi there! I am currently a student at <span class="about-span">Opol <br class="mobile-hide"> Community College</span></h1>
+                <p>My journey into the world of technology started with a simple curiosity <br class="mobile-hide"> about how the internet works. 
+                    Now, I spend my time practicing <br class="mobile-hide"> HTML and CSS to build responsive and organized websites.
+                </p>
+                <p>
+                    I believe that being a good IT professional starts with a good attitude. <br class="mobile-hide"> I grew up in a family that taught me the value of humility and how <br class="mobile-hide"> to appreciate the efforts of others. 
+                    This helps me stay grounded while <br class="mobile-hide"> I work on my projects, as I am always open to feedback and ready <br class="mobile-hide"> to learn from my mistakes to become a better developer every day.
+                </p>
+                 
+                <a href="#Skills" class="about-btn" ><button>My Skills</button></a> 
+                <div class="logos">
+                    <a href="https://www.facebook.com/cristian.raagas.758" target="_blank"><img src="Image/facebook.png" ></a>
+                    <a href="https://www.instagram.com/cristian.raagas03/" target="_blank"><img src="Image/instagram.png" ></a>
+                    <a href="mailto:occ.raagas.cristian@gmail.com" target="_blank"><img src="Image/gmail.png" ></a>
+                </div>  
+            </div>
+        </div>
+        
+        <div class="container-content2">
+            <div>
+                <h1 class="Gallery-h1">Gallery</h1>
+            </div>  
+            <div class="content2">   
+                <img src="Image/pic3.jpg" class="gallery-img">
+                <img src="Image/pic4.jpg" class="gallery-img">
+                <img src="Image/pic5.jpg" class="gallery-img">
+                <img src="Image/pic6.jpg" class="gallery-img">
+            </div> 
+        </div>
+
+        <div class="container-content3">
+            <div>
+                <h1 class="value-h1">What I Value</h1>
+            </div>
+            <div class="content3">
+                <div class="box1">
+                    <img src="Image/hardworking.png" class="icon">
+                    <h3>Hard Work & Dedication</h3>
+                    <p class="content3-p">
+                        I believe that great results come from putting in <br> consistent effort every single day. 
+                        Whether I am <br> coding or studying, I stay committed until the <br> job is done right.
+                    </p>
+                </div>
+                <div class="box2">
+                    <img src="Image/respect.png" class="icon">
+                    <h3>Humility & Respect</h3>
+                    <p class="content3-p">
+                        I grew up learning to stay grounded and <br> appreciate the guidance of the people around <br> me. 
+                        I value the ideas of others and believe there <br> is always something new to learn from <br> everyone.
+                    </p>
+                </div>
+                <div class="box3">
+                    <img src="Image/growth.png" class="icon">
+                    <h3>Continuous Growth</h3>
+                    <p class="content3-p">
+                        In the world of technology, I see every challenge <br> as a chance to improve my skills. 
+                        Every bug I fix <br> is a valuable lesson that helps me become a <br> better developer.
+                    </p>
+                </div>
+                <div class="box4">
+                    <img src="Image/integrity.png" class="icon">
+                    <h3>Integrity & Responsibility</h3>
+                    <p class="content3-p">
+                        I believe in being honest and doing the right <br> thing in every project I build.
+                        I take pride in <br> creating work that is helpful, ethical, and <br> reliable for others to use.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container-content4">
+            <div>
+                <h1 class="hobbies-h1">My Hobbies</h1>
+                <h3 class="hobbies-intro">When I'm not coding, you'll usually find me staying active. I love playing:</h3>
+            </div>
+            <div class="hobbies">
+                <div class="first-hobbies">
+                    <img src="Image/bball.jpg">
+                    <h4 class="hobbies-h4">Basketball</h4>
+                </div>
+                <div class="second-hobbies">
+                    <img src="Image/vball.jpg">
+                    <h4 class="hobbies-h4">Volleyball</h4>
+                </div>
+                <div class="third-hobbies">
+                    <img src="Image/badminton.png">
+                    <h4 class="hobbies-h4">Badminton</h4>
+                </div>
+                <div class="fourth-hobbies">
+                    <img src="Image/playing.jpg">
+                    <h4 class="hobbies-h4">Playing Online Games</h4>
+                </div>
+            </div>        
+        </div>
+    </section>
+
+    <section id="Education">
+        <div class="education-container">
+            <div class="head">
+                <h1>My Academic Journey</h1>
+                <h2 class="education-subhead">Growing and learning every step of the way</h2>
+                <h2 class="education-title">Educational Background</h2>
+            </div>
+
+            <div class="education-content">
+                <div class="tertiary">
+                    <img src="Image/OCC-removebg-preview.png">
+                    <div class="tertiary-content">
+                        <h3>Tertiary</h3>
+                        <p>Bachelor of Science in Information Technology <br>
+                            Opol Community College <br>
+                            C. Salva Street, Barangay Poblacion, Opol, Misamis Oriental <br>
+                            S.Y 2026-Present    
+                        </p>
+                    </div>
+                </div>
+            
+                <div class="secondary">
+                    <div>
+                        <img src="Image/Knhs-removebg-preview.png" class="knhs-mobile-view">
+                        <div class="secondary-content">
+                            <h3>Senior High School: </h3>
+                            <p>
+                                Humanities and Social Sciences <br>
+                                Kauswagan National High School <br>
+                                Eagle St. Kauswagan, Cagayan De Oro C Barangayity, Misamis Oriental <br>
+                                S.Y 2023-2024
+                            </p>
+                        </div>
+
+                        <div class="secondary-content">
+                            <h3>Junior High School: </h3>
+                            <p>
+                                Kauswagan National High School <br>
+                                Eagle St. Kauswagan, Cagayan De Oro City, Misamis Oriental <br>
+                                S.Y 2021-2022
+                            </p>
+                        </div>
+                    </div>
+                    <img src="Image/Knhs-removebg-preview.png" class="knhs-desktop">
+                </div>
+
+                <div class="primary">
+                    <img src="Image/kcs-Picsart-BackgroundRemover.jpg">
+                    <div class="primary-content">
+                        <h3>Primary</h3>
+                        <p>
+                            Kauswagan National High School <br>
+                            Pelaez BLVD. Kauswagan, Cagayan De Oro City, Misamis Oriental <br>
+                            S.Y 2017-2018
+                        </p>
+                    </div>
+                </div>   
+            </div>
+
+            <div class="achievements-container">
+                <h1 class="achievement-h1">My Achievements</h1>
+                <div class="jhs-achievements">
+                    <img src="Image/JHS_award.png">
+                    <div class="jhs-content">
+                        <h3>Junior High School Achievement</h3>
+                        <p>
+                            This collection shows me a well-rounded student life, <br class="mobile-hide">
+                            featuring awards for conduct, perfect attendance, <br class="mobile-hide">
+                            and academic excellence. It demonstrates a strong <br class="mobile-hide">
+                            foundation of discipline and dedication across <br class="mobile-hide">
+                            multiple grade levels.
+                        </p>
+                    </div>
+                    <div class="jhs-division"></div>
+                </div>
+                
+                <div class="shs-achievments">
+                    <div class="shs-division"></div>
+                    <div class="shs-content">
+                        <img src="Image/SHS_award.jpg" class="SHS_award-mobile-hide"> 
+                        <h3>Senior High School Achievement</h3>
+                        <p>
+                            These certificates recognize my outstanding <br class="mobile-hide"> academic performance throughout 
+                            various quarters, <br class="mobile-hide">including the prestigious With High Honors <br class="mobile-hide">distinction. 
+                            They highlight a consistent commitment <br class="mobile-hide"> to excellence and high grades during 
+                            the final years <br class="mobile-hide"> of high school.
+                        </p>
+                    </div>
+                    <img src="Image/SHS_award.jpg" class="SHS_award-desktop">
+                </div>
+            </div>
+                
+            <div class="academic-goal-container">
+                <h1>My Academic Goal</h1>
+                <div class="My-goals">
+                    <div class="goal1">
+                        <div class="goal-content">
+                            <h3>1. The Early Years</h3>
+                            <p>Starting my journey in elementary school and learning the basics of hard work.</p>
+                        </div>
+                    </div>
+
+                    <div class="goal2">
+                        <div class="goal-content">
+                            <h3>2. Building My Foundation</h3>
+                            <p>Moving through high school and discovering my interests and strengths.</p>
+                        </div>
+                    </div>
+
+                    <div class="goal3">
+                        <div class="goal-content">
+                            <h3>3. Aiming for Excellence</h3>
+                            <p>Working hard to achieve high honors and proving that effort leads to success.</p>
+                        </div>
+                    </div>
+
+                    <div class="goal4">
+                        <div class="goal-content">
+                            <h3>4. Personal Responsibility</h3>
+                            <p>Learning how to balance my studies with my responsibilities at home.</p>
+                        </div>
+                    </div>
+
+                    <div class="goal5">
+                        <div class="goal-content">
+                            <h3>5. Current Learning</h3>
+                            <p>Continuing my journey in college to gain the knowledge I need for my future career.</p>
+                        </div>
+                    </div>
+
+                    <div class="goal6">
+                        <div class="goal-content">
+                            <h3>6. My Final Goal</h3>
+                            <p>Graduating with a degree so I can provide for my family and reach my full potential.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Skills">
+        <div class="skills-container">
+            <div class="head">
+                <h1 class="h1-skill">My Technical Skills as a Student</h1>
+                <h2 class="h2-skill">Building a foundation in IT and Web Development</h2>
+                <h3 class="sub-head">Technical Skills</h3>
+            </div>
+            <div class="tech-skills">
+                <div class="skills1">
+                    <img src="Image/html.png" class="skill-icon" width="80" >
+                    <h3>HTML</h3>
+                    <h4>75%</h4>
+                </div>
+                <div class="skills2">
+                    <img src="Image/css.png" class="skill-icon" width="80">
+                    <h3>CSS</h3>
+                    <h4>60%</h4>
+                </div>
+                <div class="skills3">
+                    <img src="Image/figma1.png" class="skill-icon" width="120">
+                    <h3>Figma</h3>
+                    <h4>36%</h4>
+                </div>   
+                <div class="skills4">
+                    <img src="Image/java.png" class="skill-icon" width="50">
+                    <h3>Java</h3>
+                    <h4>37%</h4>
+                </div> 
+                <div class="skills5">
+                    <img src="Image/python.png" class="skill-icon" width="70">
+                    <h3>Python</h3>
+                    <h4>50%</h4>
+                </div>
+                <div class="skills6">
+                    <img src="Image/php.png" class="skill-icon" width="100">
+                    <h3>PHP</h3>
+                    <h4>40%</h4>
+                </div>  
+            </div>
+        </div>
+
+        <h1 class="project-title">Sample Project</h1>
+        <div class="sample-project-container">
+            <div class="sample-project">
+                <img src="Image/sample_project_java.png">  
+                <div class="sample-project-content">
+                    <h3 class="sample-project-h3">Java Project</h3>
+                    <p class="sample-project-p">
+                        This Java project is a simple <span style="color: #0C20FB;">Food Ordering System</span> created as a final requirement for
+                        my first year, first semester. It lets users browse different food categories, 
+                        search for items, and see their total bill automatically calculated in a digital cart.
+                    </p>
+                </div>
+            </div>
+
+            <div class="sample-project">
+                <img src="Image/sample_project_Python.png">
+                <div class="sample-project-content">
+                    <h3 class="sample-project-h3">Python Project</h3>
+                    <p class="sample-project-p">
+                        This is a <span style="color: #0C20FB;">Library Management System</span> built with Python as a final term project for my first year, 
+                        second semester. It allows a librarian to manage a book inventory and track borrowed items by adding,
+                        issuing, or deleting books through a simple dashboard.
+                    </p>
+                </div>
+            </div>
+
+            <div class="sample-project">
+                <img src="Image/sample_project_PHP.png">
+                <div class="sample-project-content">
+                    <h3 class="sample-project-h3">PHP Project</h3>
+                    <p class="sample-project-p">
+                        This is an <span style="color: #0C20FB;">Inventory Debt System</span> built using PHP as a final term project for my second year,
+                        first semester. It is designed to help businesses track customer balances by allowing users to 
+                        easily record new debts and process payments through a clean digital dashboard.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="soft-skills">
+            <div>
+                <h1 class="sub-head-softskills">Soft Skills</h1>
+            </div>
+            <div class="Skills-content">
+                <div class="skills">
+                    <img src="Image/problemsolving.png">
+                    <h3 class="softskills-h3">Problem Solving</h3>
+                </div>
+                <div class="skills">
+                    <img src="Image/adapt.png">
+                    <h3 class="softskills-h3">Adaptability</h3>
+                </div>
+                <div class="skills">
+                    <img src="Image/collaboration.png">
+                    <h3 class="softskills-h3">Collaboration</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Contact">
+        <div class="contact-main-wrapper">
+            <div class="contact-container">
+                <div class="contact-info-sidebar">
+                    <h1 class="contact-title">Contact Me</h1>
+                    <p class="contact-subtitle">I am here to assist you</p>
+                    
+                    <div class="contact-detail-item">
+                        <img src="Image/contact.png" class="contact-icon">
+                        <div class="contact-text">
+                            <label>PHONE</label>
+                            <span>+63 906 154 0072</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-detail-item">
+                        <img src="Image/email.png" class="contact-icon">
+                        <div class="contact-text">
+                            <label>EMAIL</label>
+                            <span>occ.raagas.cristian@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-detail-item">
+                        <img src="Image/location.png" class="location">
+                        <div class="location-text">
+                            <label>LOCATION</label>
+                            <span>Cagayan De Oro City</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <h1 class="form-title">Get In Touch</h1>
+                    <p class="form-subtitle">Feel free to reach out to me!</p>
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="02553bf1-d703-4b31-ba0e-b8926fbc2bfd">
+                        <input type="text" placeholder="Enter Name" name="Name" required>
+                        <input type="email" placeholder="Enter Email" name="Email" required>
+                        <input type="tel" placeholder="Enter Phone Number" name="Contact Number" required> 
+                        <textarea placeholder="Message" rows="4" required name="Message" class="textarea"></textarea>
+                        <div class="submit-button-wrapper">
+                            <button type="submit" class="submit-btn">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+
+     <footer id="Footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <img src="Image/pic1.jpg" class="footer-img" alt="Cristian Raagas">
+                    <div class="footer-info">
+                        <h3>Cristian Raagas</h3>
+                        <p>IT Student & Aspiring Web Developer</p>
+                    </div>
+                </div>
+
+                <div class="footer-middle">
+                    <div class="footer-section">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#Home">Home</a></li>
+                            <li><a href="#About">About</a></li>
+                            <li><a href="#Skills">Skills</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>More</h4>
+                        <ul>
+                            <li><a href="#Education">Education</a></li>
+                            <li><a href="#Contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer-right">
+                    <h4>Connect With Me</h4>
+                    <div class="footer-socials">
+                        <a href="https://www.facebook.com/cristian.raagas.758" target="_blank">
+                            <img src="Image/facebook.png" alt="Facebook">
+                        </a>
+                        <a href="https://www.instagram.com/cristian.raagas03/" target="_blank">
+                            <img src="Image/instagram.png" alt="Instagram">
+                        </a>
+                        <a href="mailto:occ.raagas.cristian@gmail.com" target="_blank">
+                            <img src="Image/gmail.png" alt="Email">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Cristian Raagas. All rights reserved.</p>
+                <p>Built with passion and dedication to web development.</p>
+            </div>
+        </div>
+    </footer>
+
+    
+
+    <script>
+        function toggleMenu() {
+        document.getElementById('navMenu').classList.toggle('active');
+        }
+
+        function closeMenu() {
+            document.getElementById('navMenu').classList.remove('active');
+        }
+    </script>
+</body>
+</html>
